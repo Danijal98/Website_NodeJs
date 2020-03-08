@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Skript Domaci - Login</title>
+</head>
+<body>
+
+    <!-- Modal Content -->
+  <form class="modal-content animate" method="POST" action="/login">
+    <div class="imgcontainer">
+      <img src="../media/avatar.jpg" alt="Avatar" class="avatar">
+    </div>
+    <div class="container">
+        <ul class="list">
+            <li>
+                <label for="uname"><b>Username</b></label>
+                <input id="korisnicko_ime" type="text" placeholder="Enter Username" name="username" required>
+            </li>
+            <li>
+                <label for="psw"><b>Password</b></label>
+                <input id="pass" type="password" placeholder="Enter Password" name="password" required>              
+            </li>
+            <li>
+                Niste <a href="registration.html">registrovani?</a>
+            </li>
+            <li>
+                <button type="submit">Login</button>
+            </li>
+        </ul>
+    </div>
+  </form>
+
+</body>
+</html>

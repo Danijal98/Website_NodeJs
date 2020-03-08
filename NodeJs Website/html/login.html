@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Skript Domaci - Login</title>
+</head>
+<body>
+
+    <nav>
+        <a href="./index.html">Početna</a>
+        <a href="./login.html">Prijava</a>
+    </nav>
+
+    <!-- Modal Content -->
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <img src="../media/avatar.jpg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+        <ul class="list">
+            <li>
+                <label for="uname"><b>Username</b></label>
+                <input id="korisnicko_ime" type="text" placeholder="Enter Username" name="uname" required>
+            </li>
+            <li>
+                <label for="psw"><b>Password</b></label>
+                <input id="pass" type="password" placeholder="Enter Password" name="psw" required>              
+            </li>
+            <li>
+                Niste <a href="registration.html">registrovani?</a>
+            </li>
+            <li>
+                <button type="button" onclick="submit_login()">Login</button>
+            </li>
+        </ul>
+    </div>
+  </form>
+</div>
+<script src="../js/login.js"></script>
+</body>
+</html>

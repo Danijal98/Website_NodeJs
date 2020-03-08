@@ -1,0 +1,137 @@
+nav {
+  background-color: #333;
+}
+
+nav input {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+nav button {
+  background: #333;
+  border: none;
+  color: white;
+  padding: 8px 8px;
+  float: right;
+}
+
+nav button:hover {
+  background-color: green;
+}
+
+nav a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: green;
+  color: white;
+}
+
+#vidi_vise {
+  border: none;
+}
+
+#vidi_vise:hover{
+  color: blue;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+.h1_main {
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+.delete_content_btn{
+  border: none;
+  float: right;
+  cursor: pointer;
+}
+
+.datum{
+  opacity: 0;
+}
+
+.komentar:hover {
+  background: darkgrey;
+}
+
+#news {
+  padding: 30px 15px;
+  margin: 0px auto;
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+
+#news .content:nth-child(odd) {
+  border-right: 2px solid black;
+  padding-right: 20px;
+}
+
+#news .content:nth-child(even) {
+  padding-left: 20px;
+}
+
+.search {
+  float: right;
+}
+
+.content {
+  width: 50%;
+}
+
+.content:hover .datum{
+  opacity: 1;
+}
+
+#newForm{
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+#smaranje{
+  padding-bottom: 20px;
+}
+
+#tekst{
+  vertical-align: top;
+}
+
+.btn-submit{
+  background: green;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#add {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 8px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+#dugme {
+  text-align: center;
+  width: 100%;
+}
